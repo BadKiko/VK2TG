@@ -1,0 +1,124 @@
+# CMake generation dependency list for this directory.
+D:/Dev/VK2TG/CMakeLists.txt
+D:/Dev/VK2TG/cmake-build-release-visual-studio/CMakeFiles/3.25.2/CMakeCCompiler.cmake
+D:/Dev/VK2TG/cmake-build-release-visual-studio/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake
+D:/Dev/VK2TG/cmake-build-release-visual-studio/CMakeFiles/3.25.2/CMakeRCCompiler.cmake
+D:/Dev/VK2TG/cmake-build-release-visual-studio/CMakeFiles/3.25.2/CMakeSystem.cmake
+D:/Dev/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake
+D:/Dev/vcpkg/installed/x64-windows/share/curl/CURLConfig.cmake
+D:/Dev/vcpkg/installed/x64-windows/share/curl/CURLConfigVersion.cmake
+D:/Dev/vcpkg/installed/x64-windows/share/curl/CURLTargets-debug.cmake
+D:/Dev/vcpkg/installed/x64-windows/share/curl/CURLTargets-release.cmake
+D:/Dev/vcpkg/installed/x64-windows/share/curl/CURLTargets.cmake
+D:/Dev/vcpkg/installed/x64-windows/share/curl/vcpkg-cmake-wrapper.cmake
+D:/Dev/vcpkg/installed/x64-windows/share/openssl/vcpkg-cmake-wrapper.cmake
+D:/Dev/vcpkg/installed/x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake
+D:/Dev/vcpkg/scripts/buildsystems/vcpkg.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDependentOption.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineRCCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeFindDependencyMacro.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCCompiler.cmake.in
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestRCCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckLibraryExists.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/HP-CXX-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/MSVC-C.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/MSVC-CXX.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/MSVC.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XL-CXX-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CompilerId/VS-10.vcxproj.in
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/FindBoost.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/FindOpenSSL.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/FindThreads.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/FindZLIB.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-Determine-CXX.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-MSVC-C.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-MSVC.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+D:/Media/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/SelectLibraryConfigurations.cmake

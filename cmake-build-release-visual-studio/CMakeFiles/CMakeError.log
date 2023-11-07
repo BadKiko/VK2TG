@@ -1,0 +1,60 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: D:/Dev/VK2TG/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-gr5o8l
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_77439.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+  src.c
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77439.dir\Debug\\" /Fd"cmTC_77439.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\Dev\VK2TG\cmake-build-release-visual-studio\CMakeFiles\CMakeScratch\TryCompile-gr5o8l\src.c"
+D:\Dev\VK2TG\cmake-build-release-visual-studio\CMakeFiles\CMakeScratch\TryCompile-gr5o8l\src.c(1,10): fatal  error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [D:\Dev\VK2TG\cmake-build-release-visual-studio\CMakeFiles\CMakeScratch\TryCompile-gr5o8l\cmTC_77439.vcxproj]
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: D:/Dev/VK2TG/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-81tljw
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2ac66.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+  CheckFunctionExists.c
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ac66.dir\Debug\\" /Fd"cmTC_2ac66.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\Dev\VK2TG\cmake-build-release-visual-studio\CMakeFiles\CMakeScratch\TryCompile-81tljw\CheckFunctionExists.c"
+LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [D:\Dev\VK2TG\cmake-build-release-visual-studio\CMakeFiles\CMakeScratch\TryCompile-81tljw\cmTC_2ac66.vcxproj]
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: D:/Dev/VK2TG/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-zqwz18
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6c0d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+  CheckFunctionExists.c
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6c0d2.dir\Debug\\" /Fd"cmTC_6c0d2.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\Dev\VK2TG\cmake-build-release-visual-studio\CMakeFiles\CMakeScratch\TryCompile-zqwz18\CheckFunctionExists.c"
+LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [D:\Dev\VK2TG\cmake-build-release-visual-studio\CMakeFiles\CMakeScratch\TryCompile-zqwz18\cmTC_6c0d2.vcxproj]
+
+
+

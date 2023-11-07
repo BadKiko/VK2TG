@@ -1,0 +1,3 @@
+D:/Dev/VK2TG/cmake-build-release-visual-studio/CMakeFiles/VK2TG.dir
+D:/Dev/VK2TG/cmake-build-release-visual-studio/CMakeFiles/ALL_BUILD.dir
+D:/Dev/VK2TG/cmake-build-release-visual-studio/CMakeFiles/ZERO_CHECK.dir
