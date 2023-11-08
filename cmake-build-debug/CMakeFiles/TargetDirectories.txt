@@ -1,3 +1,3 @@
-D:/Dev/VK2TG/cmake-build-debug/CMakeFiles/VK2TG.dir
-D:/Dev/VK2TG/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Dev/VK2TG/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kiko/CLionProjects/VK2TG/cmake-build-debug/CMakeFiles/VK2TG.dir
+/home/kiko/CLionProjects/VK2TG/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kiko/CLionProjects/VK2TG/cmake-build-debug/CMakeFiles/rebuild_cache.dir

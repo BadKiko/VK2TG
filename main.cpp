@@ -1,41 +1,55 @@
 #include <iostream>
 #include <cstdio>
 #include <tgbot/tgbot.h>
+#include <crow.h>
+#include <thread>
+#include <string>
 
 int main()
 {
     setlocale(LC_ALL, "Ru");
-    TgBot::Bot bot("6740633385:AAENDMXHCeoBcvv1lv9NL2OjIO53cEPgjd4");
-    bot.getEvents().onCommand("start", [&bot](TgBot::Message::Ptr message)
+
+    std::thread t1([&]()
     {
-        bot.getApi().sendMessage(message->chat->id, "Hi, Penis!");
-    });
-    bot.getEvents().onCommand("suka", [&bot](TgBot::Message::Ptr message)
-    {
-        bot.getApi().sendMessage(message->chat->id, "Hahahaah! Such my cock, beach)))");
-    });
-    bot.getEvents().onAnyMessage([&bot](TgBot::Message::Ptr message)
-    {
-        printf("User wrote %s, ID: \n", message->text.c_str());
-        if (StringTools::startsWith(message->text, "/start"))
+        crow::SimpleApp app;
+
+        CROW_ROUTE(app, "/")([]()
         {
-            return;
-        }
-        bot.getApi().sendMessage(message->chat->id, "Your message is: " + message->text);
+            return "Hello Host!";
+        });
+
+        app.port(8080).run_async();
     });
-    try
+
+    std::thread t2([&]()
     {
-        printf("Bot username: %s\n", bot.getApi().getMe()->username.c_str());
-        TgBot::TgLongPoll longPoll(bot);
-        while (true)
+        TgBot::Bot bot("6740633385:AAENDMXHCeoBcvv1lv9NL2OjIO53cEPgjd4");
+
+        bot.getEvents().onAnyMessage([&bot](TgBot::Message::Ptr message)
         {
-            printf("Long poll started\n");
-            longPoll.start();
+            //This
+        });
+
+        try
+        {
+            printf("Bot username: %s\n", bot.getApi().getMe()->username.c_str());
+            TgBot::TgLongPoll longPoll(bot);
+            while (true)
+            {
+                printf("Long poll started\n");
+                longPoll.start();
+            }
         }
-    }
-    catch (TgBot::TgException& e)
-    {
-        printf("error: %s\n", e.what());
-    }
+        catch (TgBot::TgException& e)
+        {
+            printf("error: %s\n", e.what());
+        }
+
+        std::cout << "Test Text";
+    });
+
+    t1.join();
+    t2.join();
+
     return 0;
 }
