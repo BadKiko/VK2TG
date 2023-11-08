@@ -22,6 +22,6 @@ endif()
 
 add_executable(VK2TG main.cpp)
 
-target_link_libraries(VK2TG /home/kiko/.vcpkg-clion/vcpkg/installed/x64-linux/lib/libTgBot.a ${CMAKE_THREAD_LIBS_INIT} ${OPENSSL_LIBRARIES} ${CURL_LIBRARIES})
+target_link_libraries(VK2TG D:/Dev/vcpkg/installed/x64-windows/lib/TgBot.lib ${CMAKE_THREAD_LIBS_INIT} ${OPENSSL_LIBRARIES} ${CURL_LIBRARIES})
 target_link_libraries(VK2TG -static)
 target_link_libraries(VK2TG ${Boost_LIBRARIES})

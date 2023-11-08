@@ -1,6 +1,5 @@
 "D:\Media\CLion 2023.1\bin\cmake\win\x64\bin\cmake.exe" -G "Visual Studio 17 2022" -DCMAKE_TOOLCHAIN_FILE=D:/Dev/vcpkg/scripts/buildsystems/vcpkg.cmake -S D:\Dev\C++\VK2TG -B D:\Dev\C++\VK2TG\cmake-build-debug-visual-studio
 -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22622.
--- Found Boost: D:/Dev/vcpkg/installed/x64-windows/include (found version "1.83.0") found components: system 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: D:/Dev/C++/VK2TG/cmake-build-debug-visual-studio
