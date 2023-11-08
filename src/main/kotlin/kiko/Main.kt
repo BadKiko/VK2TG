@@ -1,17 +1,21 @@
 package kiko
 
+import com.kotlinizer.injection.Injector
 import com.petersamokhin.vksdk.core.api.VkRequest
 import com.petersamokhin.vksdk.core.api.botslongpoll.VkBotsLongPollApi
 import com.petersamokhin.vksdk.core.client.VkApiClient
 import com.petersamokhin.vksdk.core.model.VkSettings
 import com.petersamokhin.vksdk.http.VkOkHttpClient
+import io.ktor.server.application.*
+import io.ktor.server.routing.*
+import kiko.constants.ApplicationConstant
+import kiko.services.messaging
 import kotlinx.coroutines.*
 
-// Объявление функции C++
-external fun nativeAdd(a: Int, b: Int): Int
-
 @OptIn(ExperimentalCoroutinesApi::class)
-suspend fun main() {
+suspend fun main(args: Array<String>) {
+    val injector: Injector by lazy { Injector.instance }
+
     withContext(Dispatchers.IO) {
         launch {
             // From here: https://vk.com/club151083290 take the ID
@@ -27,6 +31,7 @@ suspend fun main() {
                 groupId, accessToken, VkApiClient.Type.Community,
                 VkSettings(vkHttpClient)
             )
+            injector.register(type = VkApiClient::class.java, provider = client, identifier = "vkClient")
 
             println("Start long polling")
 
@@ -40,5 +45,9 @@ suspend fun main() {
             runBlocking { client.startLongPolling(settings = VkBotsLongPollApi.Settings(maxFails = 5)) }
             println("Connected")
         }
+        launch {
+            io.ktor.server.netty.EngineMain.main(args)
+        }
     }
 }
+
