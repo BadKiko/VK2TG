@@ -20,7 +20,8 @@ if (CURL_FOUND)
     add_definitions(-DHAVE_CURL)
 endif()
 
-add_executable(VK2TG main.cpp)
+add_executable(VK2TG main.cpp
+        remote/dto/message.h)
 
 target_link_libraries(VK2TG D:/Dev/vcpkg/installed/x64-windows/lib/TgBot.lib ${CMAKE_THREAD_LIBS_INIT} ${OPENSSL_LIBRARIES} ${CURL_LIBRARIES})
 target_link_libraries(VK2TG -static)

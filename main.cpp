@@ -4,7 +4,6 @@
 #include <crow.h>
 #include <thread>
 #include <string>
-#include <windows.h>
 
 int main()
 {
@@ -19,6 +18,10 @@ int main()
             return "Hello Host!";
         });
 
+        /*app.post("/", [](request& req)
+        {
+            int age = req.body().get_int("age");
+        });*/
         app.port(8080).run_async();
     });
 
@@ -28,9 +31,12 @@ int main()
 
         bot.getEvents().onAnyMessage([&bot](TgBot::Message::Ptr message)
         {
-            bot.getApi().sendMessage(message->chat->id, "https://telegra.ph/Kupit-Spidy-Gatchina-onlajn-prodazha-gashish-kokain-mefedron-amfetamin-geroin-shishki-i-boshki-01-25");
-            Sleep(3000);
-            bot.getApi().sendMessage(message->chat->id, "Payeer: P2P-KZT-6789-0123-4567-8901");
+            std::string user_name = message->from->username.c_str();
+            std::string msg = message->text.c_str();
+            std::int32_t timestamp = message->date;
+
+            std::cout << timestamp << std::endl;
+
         });
 
         try
